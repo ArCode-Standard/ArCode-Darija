@@ -7,9 +7,7 @@ Large datasets are not committed to Git.
 - processed: validated, approved, versioned artifacts.
 - external: externally managed files with separate terms.
 
-Before adding a source, create a manifest entry, verify license and training
-permissions, assess privacy, and assign pending_review, approved, or rejected
-status. Validate records against [schema.json](schema.json). Keep evaluation
+Start with [SOURCE_INVENTORY.md](SOURCE_INVENTORY.md) for the preliminary public-source review. It is a discovery document, not training approval. Before adding any source, create a manifest entry, verify license and training permissions, assess privacy, and assign pending_review, approved, or rejected status. Validate records against [schema.json](schema.json). Keep evaluation
 data separate from training data.
 
 The preparation utility is deliberately fail-closed:
