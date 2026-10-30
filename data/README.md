@@ -25,3 +25,10 @@ python scripts/prepare_corpus.py path/to/approved-records.jsonl
 It writes one UTF-8 text file per split plus a JSON preparation report to
 `data/processed/` by default. Inspect the report before using outputs. A public
 URL is not sufficient evidence of reuse permission.
+
+
+## First-party ArCode Standard asset
+
+The [Moroccan Darija Lexicon](https://github.com/ArCode-Standard/moroccan-darija-dataset) is a relevant first-party candidate and should not be overlooked. Its current release contains 887 entries in 38 categories, with Arabic Darija, Latin/Arabizi, MSA and French fields. A structural spot-check found 887 records, all six documented fields populated, unique IDs, no exact duplicate `darija_ar` values, and 38 observed categories matching the metadata. These checks validate structure only—not linguistic correctness, regional representativeness, naturalness, or translation quality.
+
+Current license: CC BY-NC 4.0. Treat it as suitable for a non-commercial research pilot with attribution, subject to confirming that ArCode Standard has authority to license all included material. Keep it separate from any commercial-intent corpus unless a separate commercial permission/license is established. Before training, add row-level provenance/reviewer metadata and manually review a sample across categories and scripts. Recommended first use: lexical/transliteration test cases and a small human-reviewed evaluation seed, not as the sole source for conversational SFT.
