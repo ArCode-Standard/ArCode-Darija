@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+  <title id="title">IDRIS — Moroccan Darija AI</title>
+  <desc id="desc">IDRIS by ArCode Standard: Moroccan Darija AI built around language, identity, open knowledge and responsible development.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07192D"/>
+      <stop offset=".55" stop-color="#09213A"/>
+      <stop offset="1" stop-color="#0E5960"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#19C6A0" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#19C6A0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M36 0L72 36 36 72 0 36Z" fill="none" stroke="#E9F1F4" stroke-opacity=".055" stroke-width="1"/>
+      <circle cx="36" cy="36" r="3" fill="#19C6A0" fill-opacity=".18"/>
+    </pattern>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop stop-color="#19C6A0"/>
+      <stop offset="1" stop-color="#D9C7A1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="640" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="640" rx="28" fill="url(#glow)"/>
+  <rect width="1600" height="640" rx="28" fill="url(#grid)"/>
+  <g opacity=".18" fill="none" stroke="#D9C7A1" stroke-width="2">
+    <path d="M1120 640V280c0-174 130-304 290-304s290 130 290 304v360"/>
+    <path d="M1180 640V300c0-138 103-242 230-242s230 104 230 242v340"/>
+    <path d="M1240 640V320c0-102 76-180 170-180s170 78 170 180v320"/>
+  </g>
+  <g transform="translate(1320 315)" opacity=".9" fill="none" stroke="#19C6A0" stroke-width="3">
+    <path d="M0-170L38-38 170 0 38 38 0 170-38 38-170 0-38-38Z"/>
+    <path d="M0-120L27-27 120 0 27 27 0 120-27 27-120 0-27-27Z" opacity=".55"/>
+    <circle r="10" fill="#D9C7A1" stroke="none"/>
+  </g>
+  <g transform="translate(110 92)">
+    <svg width="112" height="112" viewBox="0 0 640 640">
+      <rect width="640" height="640" rx="112" fill="#09213A" stroke="#E9F1F4" stroke-opacity=".22" stroke-width="5"/>
+      <path d="M170 452V286c0-91 67-164 150-164s150 73 150 164v166h-62V286c0-55-39-100-88-100s-88 45-88 100v166z" fill="none" stroke="#E9F1F4" stroke-width="22" stroke-linejoin="round"/>
+      <path d="M320 224l28 54 60 9-44 42 10 60-54-28-54 28 10-60-44-42 60-9z" fill="#19C6A0"/>
+      <circle cx="320" cy="320" r="13" fill="#09213A"/>
+      <path d="M230 490h180" stroke="#D9C7A1" stroke-width="10" stroke-linecap="round"/>
+    </svg>
+    <text x="138" y="49" fill="#D9C7A1" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="4">ARCODE STANDARD PRESENTS</text>
+    <text x="138" y="102" fill="#E9F1F4" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="700" letter-spacing="2">ARCODE DARIJA</text>
+  </g>
+  <g transform="translate(112 300)">
+    <text x="0" y="0" fill="#E9F1F4" font-family="Inter,Arial,sans-serif" font-size="132" font-weight="800" letter-spacing="-5">IDRIS</text>
+    <text x="6" y="86" fill="#E9F1F4" font-family="Arial,sans-serif" font-size="66" font-weight="700">إدريس</text>
+    <rect x="8" y="122" width="520" height="5" rx="2.5" fill="url(#rule)"/>
+    <text x="8" y="182" fill="#19C6A0" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="4">MOROCCAN DARIJA AI</text>
+    <text x="8" y="235" fill="#E9F1F4" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="500">Darija · العربية · Français · Arabizi</text>
+    <text x="8" y="306" fill="#D9C7A1" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="3">UNDERSTAND  /  PRESERVE  /  BUILD</text>
+  </g>
+  <text x="1480" y="584" text-anchor="end" fill="#E9F1F4" fill-opacity=".68" font-family="Inter,Arial,sans-serif" font-size="16" letter-spacing="2">LANGUAGE · IDENTITY · OPEN KNOWLEDGE · RESPONSIBLE AI</text>
+</svg>
