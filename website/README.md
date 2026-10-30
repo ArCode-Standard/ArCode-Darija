@@ -28,3 +28,12 @@ The roadmap identifies corpus development as the current focus. The page does no
 - `model-api.html` — dedicated model/API release status and planned developer interface. It explicitly states that no public checkpoint or live endpoint is currently available.
 
 The website uses repository-backed status statements. Illustrative Darija examples are labeled as authored examples, not model outputs or benchmark data.
+
+
+## Bilingual research documents
+
+- `research-roadmap.html` — Arabic/English public research page with visual language roadmap, illustrated language tracks, phased engineering plan, and links to the source documents.
+- `../docs/IDRIS_LANGUAGE_VISION.md` and `../docs/IDRIS_LANGUAGE_VISION.ar.md` — English and Arabic language vision.
+- `../docs/IDRIS_ENGINEERING_ROADMAP.md` and `../docs/IDRIS_ENGINEERING_ROADMAP.ar.md` — English and Arabic engineering execution plan.
+
+The page uses contextual imagery, not linguistic evidence. The generic sign-language photograph is explicitly not presented as Moroccan Sign Language (LSM) instruction or reference.
