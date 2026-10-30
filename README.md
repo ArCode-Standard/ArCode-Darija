@@ -24,6 +24,10 @@ The name **IDRIS** is inspired by Idris I (مولاي إدريس الأول), a 
 | Initial target | IDRIS 4B v0.1 |
 | Primary language | Moroccan Darija |
 
+## Independent research identity
+
+IDRIS is presented publicly as an **independent Moroccan research initiative** led within ArCode Standard. It is not a university, accredited research institution, registered company, or government programme. The initiative welcomes community participation and future academic collaboration, but does not claim partnerships without confirmation. See the [IDRIS Research Charter](docs/IDRIS_RESEARCH_CHARTER.md) and the [public research portal](website/index.html).
+
 ## Language goals
 
 See [IDRIS Language Vision](docs/IDRIS_LANGUAGE_VISION.md) for the long-term Darija-first roadmap, Amazigh and Hassaniya expansion, and the Moroccan Sign Language accessibility track.
