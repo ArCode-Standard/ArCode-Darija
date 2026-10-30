@@ -1,5 +1,7 @@
 name: Deploy IDRIS website
 
+# Publishes only the static site stored in website/.
+
 on:
   push:
     branches: [main]
