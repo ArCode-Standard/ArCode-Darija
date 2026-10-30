@@ -1,14 +1,6 @@
 # IDRIS — ArCode Darija
 
 <p align="center">
-  <img src="assets/idris-readme-banner.svg" alt="IDRIS — Moroccan Darija AI by ArCode Standard" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="assets/idris-logo.svg" alt="IDRIS primary logo" width="84"/>
-</p>
-
-<p align="center">
   <strong>A Moroccan Darija–focused language model initiative</strong><br/>
   <em>مشروع نموذج لغوي متخصص في الدارجة المغربية</em>
 </p>
