@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcode-standard.github.io/ArCode-Darija/schema/darija-record.schema.json",
+  "title": "IDRIS text record",
+  "type": "object",
+  "required": ["record_id", "text", "language", "script", "source_id", "split", "consent_status"],
+  "properties": {
+    "record_id": {"type": "string", "minLength": 1},
+    "text": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "enum": ["ary", "ar", "fr", "mixed", "unknown"]},
+    "dialect": {"type": ["string", "null"]},
+    "script": {"type": "string", "enum": ["Arab", "Latn", "mixed", "other"]},
+    "source_id": {"type": "string", "minLength": 1},
+    "source_record_id": {"type": ["string", "null"]},
+    "domain": {"type": ["string", "null"]},
+    "split": {"type": "string", "enum": ["train", "validation", "test", "quarantine"]},
+    "consent_status": {"type": "string", "enum": ["verified", "licensed", "synthetic", "unknown", "rejected"]},
+    "synthetic": {"type": "boolean", "default": false},
+    "review_status": {"type": "string", "enum": ["unreviewed", "reviewed", "rejected"]},
+    "created_at": {"type": ["string", "null"], "format": "date-time"},
+    "metadata": {"type": "object", "additionalProperties": true}
+  },
+  "additionalProperties": false
+}
