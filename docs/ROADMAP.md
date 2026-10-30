@@ -13,7 +13,8 @@ Milestones are complete only when evidence is committed to the repository.
 - [x] JSONL validation and exact-deduplication utilities.
 - [x] Conservative Unicode normalization.
 - [x] Initial corpus preparation pipeline with rights/review filtering and split isolation.
-- [ ] Dataset inventory and source-level rights review.
+- [x] Preliminary public-source inventory with explicit hold/restricted decisions (see [data/SOURCE_INVENTORY.md](../data/SOURCE_INVENTORY.md)).
+- [ ] Source-level rights review and approved per-source manifests.
 - [ ] Leakage-resistant source/group-level split assignment and audit.
 - [ ] Human-reviewed Darija evaluation set.
 
