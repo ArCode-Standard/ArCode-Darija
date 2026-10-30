@@ -1,14 +1,20 @@
-# Evaluation
+# IDRIS evaluation
 
-Freeze evaluation data and protocol before model selection. Keep evaluation records isolated from training.
+Evaluation data must be human-reviewed, rights-cleared, and kept separate from
+training data. Each benchmark release should have a version, source manifest,
+split policy, reviewer notes, and immutable file hash.
 
-Required slices:
-- Arabic-script Moroccan Darija.
-- Arabizi.
-- Regional vocabulary and variation.
-- Darija–French and Darija–Arabic code-switching.
-- Modern Standard Arabic and French retention.
-- Instruction following, summarization, translation, and question answering.
-- Factuality, uncertainty calibration, privacy leakage, and safety.
+The initial evaluator is a protocol and data-integrity scaffold, not a claim of
+Darija quality. Before publishing scores, define task-specific rubrics and
+include human assessment by Moroccan Darija speakers. Exact string match alone
+is not a valid measure of semantic or linguistic quality.
 
-Reports must include dataset version, sampling and split method, reviewer qualifications, prompt/template, decoding settings, metrics, confidence intervals where meaningful, baseline comparison, qualitative error analysis, and limitations. Synthetic-only evaluation is not evidence of real-world dialect competence.
+Recommended benchmark dimensions:
+- Darija comprehension and natural generation;
+- Arabic and Latin-script Darija;
+- Darija/French/Arabic code-switching;
+- regional vocabulary variation;
+- instruction following and factuality;
+- robustness, refusal behavior, and dialectal fairness.
+
+Do not commit private, personal, or unlicensed evaluation examples.

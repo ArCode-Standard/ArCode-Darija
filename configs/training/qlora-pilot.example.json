@@ -1,0 +1,29 @@
+{
+  "experiment_name": "idris-4b-qlora-pilot",
+  "stage": "supervised_fine_tuning",
+  "base_model": {
+    "model_id": null,
+    "revision": null,
+    "license_review": "pending"
+  },
+  "dataset": {
+    "train_file": "data/processed/train.jsonl",
+    "validation_file": "data/processed/validation.jsonl",
+    "manifest": "data/manifest.yaml",
+    "content_hash_required": true
+  },
+  "method": {
+    "name": "qlora",
+    "quantization": "4bit",
+    "adapter": "lora"
+  },
+  "training": {
+    "seed": 42,
+    "max_sequence_length": 2048,
+    "num_train_epochs": 1,
+    "learning_rate": 0.0002,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 8
+  },
+  "status": "template_only_not_executable"
+}

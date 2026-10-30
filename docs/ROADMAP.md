@@ -5,23 +5,27 @@ Milestones are complete only when evidence is committed to the repository.
 ## M0 — Foundation
 - [x] Public project identity and initial README.
 - [x] Initial visual assets and repository positioning.
-- [ ] Review governance and contribution documents.
+- [x] Initial governance, contribution, and security documents.
 - [ ] Select an explicit repository license after ownership and dependency review.
 
 ## M1 — Data readiness
+- [x] Versioned record schema and manifest template.
+- [x] JSONL validation and exact-deduplication utilities.
+- [x] Conservative Unicode normalization.
+- [x] Initial corpus preparation pipeline with rights/review filtering and split isolation.
 - [ ] Dataset inventory and source-level rights review.
-- [ ] Versioned manifest and schema validation.
-- [ ] Normalization and deduplication tests.
-- [ ] Leakage-resistant train/validation/test split.
+- [ ] Leakage-resistant source/group-level split assignment and audit.
 - [ ] Human-reviewed Darija evaluation set.
 
 ## M2 — Baseline
 - [ ] Approve base checkpoint, license, and immutable revision.
-- [ ] Freeze evaluation protocol.
+- [ ] Freeze evaluation protocol and benchmark dataset.
 - [ ] Record baseline results and error analysis.
 
 ## M3 — First adaptation
-- [ ] Reproducible training environment.
+- [x] QLoRA pilot configuration template (not an executable training run).
+- [x] Reproducibility requirements.
+- [ ] Implement and validate the training runner against an approved checkpoint.
 - [ ] Pilot run and memory/throughput validation.
 - [ ] Compare SFT and optional continued-pretraining experiments.
 - [ ] Evaluate dialect, script, code-switching, and regressions.
