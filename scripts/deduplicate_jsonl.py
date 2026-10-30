@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Exact deduplication of JSONL records using conservative normalized text."""
 
 from __future__ import annotations
@@ -31,10 +30,10 @@ def main() -> int:
                 continue
             record = json.loads(raw_line)
             if not isinstance(record, dict):
-                raise ValueError(f"line {line_number}: expected a JSON object")
+                raise TypeError(f"line {line_number}: expected a JSON object")
             text = record.get(args.text_field)
             if not isinstance(text, str):
-                raise ValueError(
+                raise TypeError(
                     f"line {line_number}: field {args.text_field!r} must be a string"
                 )
             canonical = normalize_text(text)
