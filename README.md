@@ -64,7 +64,20 @@ No training run or benchmark result is claimed by this repository at this stage.
 
 ## Repository status
 
-This repository is the initial project home. Documentation, dataset specifications, preprocessing tools, training configurations, evaluation resources, and model releases will be added as they are prepared and validated.
+The repository now includes project governance, identity specifications, a data manifest template and JSON Schema, initial JSONL validation and exact-deduplication utilities, tests, and a GitHub Actions test workflow. Training code, approved datasets, benchmark results, and model checkpoints are not yet available. See the [roadmap](docs/ROADMAP.md) for evidence-based milestones.
+
+## Developer quick start
+
+Requirements: Python 3.10 or newer.
+
+```bash
+python -m pip install -e ".[dev]"
+python -m pytest
+python scripts/validate_jsonl.py path/to/records.jsonl
+python scripts/deduplicate_jsonl.py input.jsonl output.jsonl
+```
+
+The initial text normalizer applies Unicode NFC and whitespace cleanup only. It does not transliterate Arabizi, remove diacritics, or rewrite dialect spelling. Review [data policy](docs/DATA_POLICY.md) before using any corpus.
 
 ## Data and licensing
 
@@ -74,7 +87,7 @@ Until a repository-level license is added, all rights are reserved by their resp
 
 ## Contributing
 
-Contributions related to Moroccan Darija linguistics, dataset documentation, evaluation design, data quality, and model engineering are welcome. Contribution guidelines will be published before accepting substantial contributions.
+Contributions related to Moroccan Darija linguistics, dataset documentation, evaluation design, data quality, and model engineering are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution requirements.
 
 ## Maintainers
 
