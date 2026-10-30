@@ -1,8 +1,7 @@
 import json
 
-import pytest
-
 from idris_data.pipeline import prepare_corpus
+import pytest
 
 
 SCHEMA = {
