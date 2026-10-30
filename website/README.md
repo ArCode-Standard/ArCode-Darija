@@ -37,3 +37,12 @@ The website uses repository-backed status statements. Illustrative Darija exampl
 - `../docs/IDRIS_ENGINEERING_ROADMAP.md` and `../docs/IDRIS_ENGINEERING_ROADMAP.ar.md` — English and Arabic engineering execution plan.
 
 The page uses contextual imagery, not linguistic evidence. The generic sign-language photograph is explicitly not presented as Moroccan Sign Language (LSM) instruction or reference.
+
+
+## Project viability roadmap
+
+- `project-validation.html` — bilingual illustrated validation roadmap with problem discovery, alternatives benchmarking, data feasibility, technical proof, user testing, and GO / PIVOT / HOLD / STOP decision gates.
+- `../docs/IDRIS_PROJECT_VALIDATION_ROADMAP.ar.md` — complete Arabic roadmap.
+- `../docs/IDRIS_PROJECT_VALIDATION_ROADMAP.md` — complete English roadmap.
+
+The page is a proposed validation plan, not a completed market study or evidence of model performance.
