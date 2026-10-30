@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Validate a JSONL corpus against data/schema.json."""
 
 from __future__ import annotations
