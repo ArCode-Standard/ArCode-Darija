@@ -1,7 +1,8 @@
 import json
 
-from idris_data.pipeline import prepare_corpus
 import pytest
+
+from idris_data.pipeline import prepare_corpus
 
 
 SCHEMA = {
