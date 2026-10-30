@@ -56,7 +56,7 @@ No training run or benchmark result is claimed by this repository at this stage.
 
 ## Repository status
 
-The repository now includes project governance, identity specifications, a data manifest template and JSON Schema, initial JSONL validation and exact-deduplication utilities, tests, and a GitHub Actions test workflow. Training code, approved datasets, benchmark results, and model checkpoints are not yet available. See the [roadmap](docs/ROADMAP.md) for evidence-based milestones.
+The repository includes project governance, identity specifications, a data manifest template and JSON Schema, JSONL validation and deduplication, and an approved-corpus preparation pipeline that filters by rights and review status and exports isolated splits. It also includes a QLoRA pilot configuration template and reproducibility requirements. These are engineering tools and templates: no approved corpus, training run, benchmark score, or model checkpoint is claimed. See the [roadmap](docs/ROADMAP.md) for evidence-based milestones.
 
 ## Developer quick start
 
