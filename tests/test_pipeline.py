@@ -2,8 +2,6 @@ import json
 
 import pytest
 
-from idris_data.pipeline import prepare_corpus
-
 
 SCHEMA = {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -47,6 +45,8 @@ def _record(record_id, text, split="train", consent="licensed", review="reviewed
 
 
 def test_prepare_corpus_filters_and_deduplicates_across_splits(tmp_path):
+    from idris_data.pipeline import prepare_corpus
+
     schema_path = tmp_path / "schema.json"
     input_path = tmp_path / "records.jsonl"
     output_dir = tmp_path / "processed"
@@ -75,6 +75,8 @@ def test_prepare_corpus_filters_and_deduplicates_across_splits(tmp_path):
 
 
 def test_prepare_corpus_fails_closed_on_invalid_jsonl(tmp_path):
+    from idris_data.pipeline import prepare_corpus
+
     schema_path = tmp_path / "schema.json"
     input_path = tmp_path / "records.jsonl"
     schema_path.write_text(json.dumps(SCHEMA), encoding="utf-8")
