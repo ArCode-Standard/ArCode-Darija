@@ -9,9 +9,9 @@
 
 IDRIS aims to become an AI system grounded first in the language people use in everyday Moroccan life, then expanded to additional languages and accessible communication modalities.
 
-The initial linguistic foundation is **Moroccan Darija**. The roadmap then expands to **Amazigh varieties**, **Hassaniya**, and **Moroccan Sign Language (LSM)**. Modern Standard Arabic, French, and Arabizi remain important for code-switching, literacy, and practical communication; they do not replace the project's Darija-first identity.
+The **active research scope is Moroccan Darija only**. The first track covers Darija in Arabic and Latin/Arabizi writing, regional and contextual variation, and code-switching with French and Modern Standard Arabic (MSA). French and MSA are considered in Darija contexts; this does not define IDRIS as a general French or MSA model.
 
-This is a long-term research direction, not a claim that these capabilities already exist. Each stage requires suitable data, community participation, independent evaluation, and a clear release decision.
+Amazigh varieties, Hassaniya, and Moroccan Sign Language (LSM) are **future strategic directions only**. They are not active research tracks, are not represented by a current IDRIS dataset, and are not available model capabilities. Any future track requires a separate scope decision, community participation, suitable rights-cleared data, specialist review, independent evaluation, and an explicit release decision.
 
 ## 2. Language roadmap
 
@@ -27,7 +27,9 @@ Build strong, natural understanding and generation across:
 
 The existing Moroccan Darija lexicon is a seed resource, not a complete language dataset. It should be complemented by reviewed sentences, contextual examples, conversations, and evaluation material.
 
-### Stage 2 — Amazigh
+### Future direction A — Amazigh (not active)
+
+This section records a possible future research track only. No active IDRIS work or capability is implied.
 
 Expand through separately documented varieties, including:
 
@@ -37,11 +39,15 @@ Expand through separately documented varieties, including:
 
 Do not collapse these varieties into one artificial standard. Record the variety, region when voluntarily and appropriately supplied, script, orthographic conventions, and reviewer expertise for each example. Support for Tifinagh and other attested writing practices should be based on documented data rather than assumptions.
 
-### Stage 3 — Hassaniya
+### Future direction B — Hassaniya (not active)
+
+This section records a possible future research track only. No active IDRIS work or capability is implied.
 
 Develop a dedicated Hassaniya track that documents regional variation, vocabulary, morphology, syntax, oral usage, and code-switching. Record where and how each variety is used when that information is available and appropriate. Do not assume that one small corpus represents all Hassaniya speakers or communities.
 
-### Stage 4 — Moroccan Sign Language (LSM)
+### Future direction C — Moroccan Sign Language (LSM; not active)
+
+This section records a possible future accessibility and multimodal research track only. No active IDRIS work or capability is implied.
 
 Treat sign language as a full language and a distinct multimodal research track—not as a word list, signed version of spoken Darija, or universal sign system.
 
@@ -76,7 +82,7 @@ Do not infer a speaker's identity, location, ethnicity, emotion, or intent witho
 The intended direction is a shared reasoning and dialogue core connected to specialized language and modality components:
 
 1. **Shared core:** dialogue state, instruction following, reasoning, and context management.
-2. **Language components:** Darija, Amazigh varieties, and Hassaniya data and evaluation tracks.
+2. **Current language component:** Moroccan Darija data and evaluation. Additional language tracks would require separate approval and are not part of the current implementation.
 3. **Text processing:** script handling, normalization, transliteration where justified, and code-switching.
 4. **Audio components:** speech recognition and speech generation, introduced only when supported by data and evaluation.
 5. **Visual and sign components:** video perception, temporal movement modeling, and sign-language generation.
@@ -109,7 +115,7 @@ For LSM, evaluation must include Deaf native or highly proficient signers and as
 
 ## 7. Current status
 
-This document records the project's strategic direction only. It does not assert that IDRIS currently understands Darija, Amazigh, Hassaniya, or LSM at a production level. Dataset readiness, model training, and benchmark results must be reported separately and only when verified.
+This document includes a long-term strategic vision. The active research scope is Moroccan Darija only; Amazigh varieties, Hassaniya, and LSM remain inactive future directions. No production-level language capability is claimed. Dataset readiness, model training, and benchmark results must be reported separately and only when verified.
 
 ## 8. Guiding principle
 
