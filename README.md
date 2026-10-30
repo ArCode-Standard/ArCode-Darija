@@ -26,6 +26,8 @@ The name **IDRIS** is inspired by Idris I (مولاي إدريس الأول), a 
 
 ## Language goals
 
+See [IDRIS Language Vision](docs/IDRIS_LANGUAGE_VISION.md) for the long-term Darija-first roadmap, Amazigh and Hassaniya expansion, and the Moroccan Sign Language accessibility track.
+
 - Natural Moroccan Darija understanding and generation.
 - Support for Arabic-script Darija and Latin-script Darija (Arabizi).
 - Robust handling of regional vocabulary and variation.
