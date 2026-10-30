@@ -28,15 +28,21 @@ The name **IDRIS** is inspired by Idris I (مولاي إدريس الأول), a 
 
 IDRIS is presented publicly as an **independent Moroccan research initiative** led within ArCode Standard. It is not a university, accredited research institution, registered company, or government programme. The initiative welcomes community participation and future academic collaboration, but does not claim partnerships without confirmation. See the [IDRIS Research Charter](docs/IDRIS_RESEARCH_CHARTER.md) and the [public research portal](website/index.html).
 
-## Language goals
+## Language scope and roadmap
 
-See [IDRIS Language Vision](docs/IDRIS_LANGUAGE_VISION.md) for the long-term Darija-first roadmap, Amazigh and Hassaniya expansion, and the Moroccan Sign Language accessibility track.
+**Current research scope: Moroccan Darija only.** The first research and data track focuses on Darija written in Arabic script and Latin script (Arabizi), including natural code-switching with French and Modern Standard Arabic (MSA), and regional and contextual variation within Moroccan Darija.
 
-- Natural Moroccan Darija understanding and generation.
-- Support for Arabic-script Darija and Latin-script Darija (Arabizi).
-- Robust handling of regional vocabulary and variation.
-- Code-switching between Darija, Arabic, and French.
-- Useful general capabilities such as explanation, summarization, translation, and question answering.
+French and MSA are included as languages that may appear in mixed-language examples or serve as translation/context targets. Their inclusion does not mean that IDRIS is currently a general-purpose French or Arabic model.
+
+**Future strategic directions — not active project scope:** Amazigh varieties (including Tashelhit, Central Atlas Tamazight and Tarifit), Hassaniya, and Moroccan Sign Language (LSM) are described in the language vision as possible independent future research tracks. They are not part of the current dataset, model-development scope, or available capabilities. Each would require its own community-led scoping, data rights, specialist review, and evaluation before work begins.
+
+- Study and document Moroccan Darija as used by speakers.
+- Preserve Arabic-script and Latin-script (Arabizi) writing without imposing one spelling standard.
+- Examine code-switching with French and MSA in Darija contexts.
+- Represent regional, social, and contextual variation within Moroccan Darija.
+- Treat any additional language or modality as a separately approved future track.
+
+See [IDRIS Language Vision](docs/IDRIS_LANGUAGE_VISION.md) for the long-term roadmap and its stage gates.
 
 ## Development principles
 
