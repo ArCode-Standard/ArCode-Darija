@@ -21,3 +21,10 @@ The interface uses an original visual system informed by platform-native design 
 ## Content accuracy
 
 The roadmap identifies corpus development as the current focus. The page does not claim that a model checkpoint, approved corpus, training run, or benchmark result already exists.
+
+## Research and developer pages
+
+- `index.html` — bilingual project site, architecture overview, language examples, research dashboard, contribution pathways, and a clearly gated Live Demo placeholder.
+- `model-api.html` — dedicated model/API release status and planned developer interface. It explicitly states that no public checkpoint or live endpoint is currently available.
+
+The website uses repository-backed status statements. Illustrative Darija examples are labeled as authored examples, not model outputs or benchmark data.
