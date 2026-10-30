@@ -1,0 +1,31 @@
+dataset:
+  id: "replace-with-stable-id"
+  name: "Dataset name"
+  version: "source version or commit"
+  source_url: "https://example.org/source"
+  collected_at: "YYYY-MM-DD"
+  maintainer: "rights holder or unknown"
+  license:
+    spdx_id: "NOASSERTION"
+    terms_url: "https://example.org/terms"
+    training_permission_evidence: "Describe explicit permission or legal basis"
+    redistribution_permission: "unknown"
+  status: "pending_review"
+  languages: ["ary"]
+  dialects: ["Moroccan Darija"]
+  scripts: ["Arab", "Latn"]
+  domains: []
+  record_count: null
+  personal_data_review:
+    completed: false
+    notes: "Do not include personal data in this manifest"
+  preprocessing:
+    steps: []
+    code_revision: null
+  splits:
+    train: null
+    validation: null
+    test: null
+  known_limitations: []
+  reviewer: null
+  review_date: null
