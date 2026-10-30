@@ -3,6 +3,7 @@
 Milestones are complete only when evidence is committed to the repository.
 
 ## M0 — Foundation
+- [x] Publish bilingual project viability roadmap with evidence-based GO / PIVOT / HOLD / STOP gates (plan published; validation not yet performed).
 - [x] Publish bilingual IDRIS language vision and engineering execution plan (strategic and proposed; not implementation completion).
 - [x] Public project identity and initial README.
 - [x] Initial visual assets and repository positioning.
