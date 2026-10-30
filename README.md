@@ -83,11 +83,39 @@ python scripts/deduplicate_jsonl.py input.jsonl output.jsonl
 
 The initial text normalizer applies Unicode NFC and whitespace cleanup only. It does not transliterate Arabizi, remove diacritics, or rewrite dialect spelling. Review [data policy](docs/DATA_POLICY.md) before using any corpus.
 
-## Data and licensing
+## Licensing, copyright, and reuse
 
-Dataset inclusion is conditional on reviewing its license, terms of use, provenance, and redistribution permissions. Synthetic and human-authored data should be identified separately. Evaluation data must remain isolated from training data to reduce contamination.
+### Current repository-wide status
 
-Until a repository-level license is added, all rights are reserved by their respective owners. Do not assume that this project grants permission to reuse repository contents or third-party datasets.
+**This repository does not currently have a single repository-wide license.** Until a license is explicitly selected, approved, and added for a particular category of material, copyright and other applicable rights remain with their respective authors or rights holders. Making a file publicly accessible on GitHub does not, by itself, grant permission to copy, modify, redistribute, commercially use, or include it in model training.
+
+Do not interpret the absence of a license as an open-source or public-domain dedication. A license added to one category or directory must not be assumed to cover the rest of the repository.
+
+### Decisions by content category
+
+| Category | Current status | Required decision / handling |
+|---|---|---|
+| **Source code** | No repository-wide code license has been adopted. | Select and approve a software license (for example, MIT or Apache-2.0), then add its license text and clearly define which files it covers. Until then, all rights remain with the relevant code authors or rights holders. |
+| **Documentation and website content** | No documentation license has been adopted. | Select a separate documentation license (for example, CC BY 4.0) and state its scope. Do not assume a future code license also covers prose, diagrams, images, or website assets. |
+| **Project-owned datasets** | No blanket data license applies to all data in this repository. | License each dataset/version explicitly, after confirming that the project has the rights needed to do so. Keep dataset licensing separate from code and documentation licensing. |
+| **Community contributions** | No Contributor License Agreement (CLA), Developer Certificate of Origin (DCO), or other inbound contribution license has been adopted. | Contributors retain their copyright. A pull request does not transfer ownership or automatically grant the project permission to redistribute or relicense the contribution. Before merging copyrightable code, prose, or data, maintainers must establish that the contributor has authority to submit it and obtain the permissions required under the applicable contribution terms. |
+| **External resources** | Governed by their original rights holders, licenses, and terms. | Record the source, author/rightsholder, exact license or permission, applicable version, attribution requirements, and permitted uses. Do not copy, redistribute, adapt, or use material for training unless those actions are permitted. If rights are unclear, quarantine the material and do not use it. |
+
+### Existing Moroccan Darija dataset
+
+The separate [moroccan-darija-dataset](https://github.com/ArCode-Standard/moroccan-darija-dataset) repository currently identifies its lexical dataset as **CC BY-NC 4.0**. That license applies to the material expressly covered by that dataset repository's license and notices; it does **not** automatically license this repository's source code, documentation, website, or other datasets. Non-commercial restrictions also mean it must not be treated as permission for commercial reuse.
+
+Before distributing or using any dataset, verify that every included item is eligible for the stated license. A project license cannot grant rights that the project does not own or control.
+
+### Interim rules pending formal adoption
+
+1. Keep code, documentation, datasets, website assets, and third-party resources distinguishable; do not apply one blanket license by implication.
+2. Preserve copyright notices, attribution, source references, and license files supplied with imported material.
+3. Record dataset provenance and permitted uses in the data manifest and source inventory. Training permission and redistribution permission must be checked separately.
+4. Do not merge community material when the contributor's authority or the required inbound permission is unresolved.
+5. When a category-specific license is adopted, add the full license text, identify its scope, and update this table and the relevant contribution/data policies.
+
+These statements describe the project's current handling policy; they are not legal advice. License selection and contribution terms should be reviewed for compatibility with the project's intended research and future distribution model.
 
 ## Contributing
 
